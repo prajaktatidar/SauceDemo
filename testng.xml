@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browserName" value="firefox"></parameter>
+    <classes>
+      <class name="com.saucedemoTestPack.TC001_verifyLoginFunctionality"/>
+      <class name="com.saucedemoTestPack.TC02_verify_logoutFuctionality"/>
+      <class name="com.saucedemoTestPack.TC06_verifyAllProducts"/>
+      <class name="com.saucedemoTestPack.TC03_BagProduct_AddToCartFucyionality"/>
+      <class name="com.saucedemoTestPack.TC05_verify_AboutFuctionality"/>
+      <class name="com.saucedemoTestPack.TC04_verify_applyFilter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
